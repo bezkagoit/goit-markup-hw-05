@@ -760,7 +760,12 @@ input::placeholder {
 }
 
 .modal-input:focus + .modal-input-icon {
-  fill: var(--c-brand);
+  fill: #4d5ae5;
+}
+
+.modal-input:focus-within {
+  border-color: #4d5ae5;
+  outline: none;
 }
 
 .modal-textarea-field {
